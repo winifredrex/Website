@@ -1,0 +1,192 @@
+#box1 {
+    /*background-color: rgb(206, 197, 23);*/
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    height: 70px;
+    margin-top: 70px;
+}
+#box2 {
+    /*background-color: aquamarine;*/
+    text-align: center;
+   /* text-indent: 5px;*/
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+    font-size: 60px;
+    height: 70px;
+}
+#h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Breuche';
+    font-style: normal;
+}
+ /*#style {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background: url(mask.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    }
+*/
+#head{
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#div{
+    justify-content: center;
+    text-indent: -10px;
+
+}
+#ball{
+    font-size: 120px;
+    font-family: 'Ephesis', cursive;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color:  #97B640;
+    width: 200px;
+    height: 120px;
+    margin: auto;
+   justify-content: center;
+
+}
+
+.under{
+    text-decoration: none;
+    color: black;
+}
+.under2{
+    text-decoration: none;
+    color: black;
+}
+.under3{
+    text-decoration: none;
+    color: black;
+}
+#buttons {
+
+    text-align: center;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin: 50px auto;
+    width: 400px;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+
+}
+#button2 {
+
+    text-align: center;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin: 50px auto;
+    width: 400px;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+
+
+
+}
+#button3 {
+
+    text-align: center;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin: 50px auto;
+    width: 400px;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+
+
+}
+#buttons a{
+    text-align: absolute;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    /* CSS styles for screens with width up to 600 pixels */
+    #box1 {
+      font-size: 20px;
+      height: 50px;
+
+    }
+    #box2 {
+      font-size: 30px;
+      margin-top: 0px;
+      height: 40px;
+    
+    }
+    #div{
+        justify-content: center;
+        text-indent: -20px;
+    
+    }
+    #ball{
+        font-size: 80px;
+        font-family: 'Ephesis', cursive;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        color:  #97B640;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        justify-content: center;
+    }
+    #buttons{
+        align-items: center;
+        font-size: 20px;
+        width: 250px;
+        margin-top: 30px;
+
+
+    }
+    #button2{
+
+        align-items: center;
+        font-size: 20px;
+        width: 250px;
+
+    }
+    #button3{
+
+        align-items: center;
+        font-size: 20px;
+        width: 250px;
+
+    }
+}
+
+
+/* PAGE TWO*/
+ul{
+    list-style: square;
+
+}
+ul li{
+    margin: 5px;
+}
+.box{
+    display: inline-block;
+    margin-right: 60px;
+}
