@@ -24,17 +24,7 @@
     font-family: 'Breuche';
     font-style: normal;
 }
- /*#style {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    background: url(mask.jpeg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    }
-*/
+
 #head{
     height: 100px;
     margin-top: 0px;
@@ -124,6 +114,13 @@
     
 }
 
+body{
+    background-image: url(17665.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
 @media only screen and (max-width: 600px) {
     /* CSS styles for screens with width up to 600 pixels */
     #box1 {
@@ -175,6 +172,24 @@
         width: 250px;
 
     }
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+
+      }
+    
+    .box{
+        display: inline-block;
+        margin-right: 70px;
+        text-decoration: none;
+        color: black;
+    }
+    ul {
+
+        list-style: square;
+        font-size: 50px;
+    
+    }
 }
 
 
@@ -182,11 +197,26 @@
 ul{
     list-style: square;
 
+    
+
 }
 ul li{
     margin: 5px;
+
 }
 .box{
     display: inline-block;
     margin-right: 60px;
+    text-decoration: none;
+    color: black;
+}
+.h1class{
+    background-color: #009E60;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-family: 'Viaoda Libre', cursive;
 }
