@@ -61,6 +61,11 @@
     text-decoration: none;
     color: black;
 }
+
+.under4{
+    text-decoration: none;
+    color: black;
+}
 #buttons {
 
     text-align: center;
@@ -108,6 +113,73 @@
     border-radius: 10px;
 
 
+}
+#ticket {
+
+    text-align: center;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin: 50px auto;
+    width: 400px;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+
+
+}
+#ticket2 {
+
+    text-align: center;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin: 50px auto;
+    width: 400px;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+
+
+}
+#ticket3 {
+
+    text-align: center;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin: 50px auto;
+    width: 400px;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+
+
+}
+#ticket4 {
+
+    text-align: center;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: x-large;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin: 50px auto;
+    width: 400px;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+
+
+}
+#ticket a{
+    text-align: absolute;
 }
 #buttons a{
     text-align: absolute;
@@ -166,6 +238,34 @@ body{
 
     }
     #button3{
+
+        align-items: center;
+        font-size: 20px;
+        width: 250px;
+
+    }
+    #ticket{
+
+        align-items: center;
+        font-size: 20px;
+        width: 250px;
+
+    }
+    #ticket2{
+
+        align-items: center;
+        font-size: 20px;
+        width: 250px;
+
+    }
+    #ticket3{
+
+        align-items: center;
+        font-size: 20px;
+        width: 250px;
+
+    }
+    #ticket4{
 
         align-items: center;
         font-size: 20px;
