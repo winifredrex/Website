@@ -249,6 +249,7 @@ body{
         align-items: center;
         font-size: 20px;
         width: 250px;
+        
 
     }
     #ticket2{
@@ -276,7 +277,7 @@ body{
         background-size: cover;
         background-attachment: fixed;
 
-      }
+    }
     
     .box{
         display: inline-block;
